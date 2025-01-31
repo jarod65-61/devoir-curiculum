@@ -1,0 +1,174 @@
+@font-face {
+    font-family:'raleway-regular' ;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family:'raleway-italic' ;
+    src: url(../fonts/Raleway-Italic.ttf); 
+    
+}
+@font-face {
+    font-family:'raleway-bold' ;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+h1, h2, h3 {
+    
+    font-family: "lato",sans-serif ;
+}
+
+p {
+    font-family: 'raleway-regular' sans-serif;
+}
+
+header, main, footer{
+    width: 1160px;
+    margin:auto;
+    
+}
+
+header {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+    color: white;
+}
+
+header p{
+    padding: 30px;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    box-shadow: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 30px;
+    cursor: zoom-in;
+}
+header img:active{
+    transform: scale(1.5);
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:center ;
+    width: 100%;
+    height: 60px;
+    background-color: #2c1d27;
+}
+header address a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+aside {
+    width: 30%;
+    background-color: #782221;
+}
+section nth p{
+    text-indent: 20px;
+}
+
+.hard-skills h2 {
+
+    background-color: #dbc2a4;
+}
+aside  p{
+    text-indent: 20px;
+}
+ aside h2{
+    color: black;
+    display: flex;
+    background-color: #dbc2a4; 
+    
+ }
+aside section{
+    color: white;
+}
+.hard-skills{
+    color: black;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+    align-items: left;
+    border-right: 1px solid black;
+    }
+.hard-skills:hover{
+    border-right: 4px solid #782221; 
+    transition: border-right 0.3s ease-in-out;
+
+}
+
+.hard-skills{
+    padding: 10px;
+}
+.hard-skills ul{
+    padding: 10px;
+}
+.hard-skills p{
+    padding: 10px;
+}
+main article {
+    padding: 20px;
+}
+p,ul{
+    font-family: "Raleway-Regular";
+}
+
+main section {
+    padding: 20px;
+}
+aside p{
+    padding: 10px;
+}
+aside ul{
+    padding: 10px;
+}
+aside p ul{
+    
+    color: white;
+}
+aside h1{
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+}
+footer img:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+footer section a img {
+    width: 30px;
+    height: 30px;
+}
+ ul{        
+    list-style-position: inside;
+    }    
